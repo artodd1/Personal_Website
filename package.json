@@ -1,0 +1,22 @@
+{
+  "name": "adrian_todd_personal_website",
+  "version": "1.0.0",
+  "description": "Adrian Todd's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-todd834/Personal_Website.git"
+  },
+  "author": "Adrian Todd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-todd834/Personal_Website/issues"
+  },
+  "homepage": "https://github.com/a-todd834/Personal_Website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
