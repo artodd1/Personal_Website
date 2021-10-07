@@ -16,15 +16,7 @@ export const Navbar = () => {
         >
           <span className='navbar-toggler-icon'></span>
         </button>
-        <div
-          className='collapse navbar-collapse'
-          id='navmenu'
-          data-bs-toggle='collapse'
-          data-bs-target='#navmenu'
-          aria-controls='navmenu'
-          aria-expanded='true'
-          aria-label='Toggle navigation'
-        >
+        <div className='collapse navbar-collapse' id='navmenu'>
           <Link
             className='navbar-brand mx-5 text-center mt-0 nav-item '
             to='/Personal_Website/'
