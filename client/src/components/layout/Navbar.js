@@ -18,7 +18,7 @@ export const Navbar = () => {
         </button>
         <div className='collapse navbar-collapse' id='navmenu'>
           <Link
-            className='navbar-brand mx-5 text-center mt-0 nav-item'
+            className='navbar-brand mx-5 text-center mt-0 nav-item '
             to='/Personal_Website/'
           >
             <h1 className='fw-light mt-0 p-0'>A/T</h1>
@@ -26,9 +26,9 @@ export const Navbar = () => {
               Software Developer
             </h6>
           </Link>
-          <ul className='navbar-nav ms-auto'>
+          <ul className='navbar-nav ms-auto navbar-collapse'>
             <li className='nav-item'>
-              <Link className='nav-link' to='/Personal_Website/'>
+              <Link className='nav-link ' to='/Personal_Website/'>
                 Resume
               </Link>
             </li>
