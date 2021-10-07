@@ -33,9 +33,6 @@ export const Navbar = () => {
                 href='#summary'
                 data-bs-toggle='collapse'
                 data-bs-target='#navmenu'
-                aria-controls='navmenu'
-                aria-expanded='false'
-                aria-label='Toggle navigation'
               >
                 Summary
               </a>
@@ -46,9 +43,6 @@ export const Navbar = () => {
                 href='#education'
                 data-bs-toggle='collapse'
                 data-bs-target='#navmenu'
-                aria-controls='navmenu'
-                aria-expanded='false'
-                aria-label='Toggle navigation'
               >
                 Education
               </a>
@@ -59,48 +53,36 @@ export const Navbar = () => {
                 href='#technical'
                 data-bs-toggle='collapse'
                 data-bs-target='#navmenu'
-                aria-controls='navmenu'
-                aria-expanded='false'
-                aria-label='Toggle navigation'
               >
                 Technical Skills
               </a>
             </li>
-            <li className='nav-item navbar-toggler'>
+            <li className='nav-item '>
               <a
                 className='nav-link'
                 href='#projects'
                 data-bs-toggle='collapse'
                 data-bs-target='#navmenu'
-                aria-controls='navmenu'
-                aria-expanded='false'
-                aria-label='Toggle navigation'
               >
                 Projects
               </a>
             </li>
-            <li className='nav-item navbar-toggler'>
+            <li className='nav-item '>
               <a
                 className='nav-link'
                 href='#experience'
                 data-bs-toggle='collapse'
                 data-bs-target='#navmenu'
-                aria-controls='navmenu'
-                aria-expanded='false'
-                aria-label='Toggle navigation'
               >
                 Past Work Experience
               </a>
             </li>
-            <li className='nav-item navbar-toggler'>
+            <li className='nav-item '>
               <a
                 className='nav-link'
                 href='#contact'
                 data-bs-toggle='collapse'
                 data-bs-target='#navmenu'
-                aria-controls='navmenu'
-                aria-expanded='false'
-                aria-label='Toggle navigation'
               >
                 Contact
               </a>
