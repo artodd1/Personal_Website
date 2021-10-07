@@ -182,7 +182,10 @@ export const Home = () => {
           ></img>
         </div>
       </section>
-      <section className='p-5 bg-light text-center text-sm-start'>
+      <section
+        id='technical'
+        className='p-5 bg-light text-center text-sm-start'
+      >
         <div className='row'>
           <div className='m-auto'>
             <h2 className='mb-5'>Technical Skills</h2>
@@ -403,7 +406,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='p-sm-5 p-2 bg-dark'>
+      <section id='projects' className='p-sm-5 p-2 bg-dark'>
         <h2 className='text-light mb-5'>Projects I've Completed</h2>
         <div className='row g-5'>
           <div className='col-lg-3 col-md-6'>
@@ -433,7 +436,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='p-sm-5 p-2 bg-light'>
+      <section id='experience' className='p-sm-5 p-2 bg-light'>
         <h2 className='text-dark mb-5'>Experience</h2>
         <div className='row g-5'>
           <div className='col-lg-3 col-md-6'>
@@ -537,7 +540,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className='p-5 bg-dark '>
+      <section id='contact' className='p-5 bg-dark '>
         <div className='row py-5'>
           <img
             className='img-fluid col-lg-6'

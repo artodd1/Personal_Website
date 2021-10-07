@@ -28,19 +28,34 @@ export const Navbar = () => {
           </Link>
           <ul className='navbar-nav ms-auto navbar-collapse'>
             <li className='nav-item'>
-              <Link className='nav-link ' to='/Personal_Website/'>
-                Resume
-              </Link>
+              <a classname='nav-link' href='#summary'>
+                Summary
+              </a>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to='/portfolio'>
-                Portfolio
-              </Link>
+              <a classname='nav-link' href='#education'>
+                Education
+              </a>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to='/contact'>
+              <a classname='nav-link' href='#technical'>
+                Technical Skills
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a classname='nav-link' href='#projects'>
+                Projects
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a classname='nav-link' href='#experience'>
+                Past Work Experience
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a classname='nav-link' href='#contact'>
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
@@ -55,4 +70,22 @@ export default Navbar;
   /* <Link className='navbar-brand m-1' to='./pages/Home.js'>
 <h1 className='p-2'>Adrian Todd</h1>
 </Link> */
+
+  {
+    /* <li className='nav-item'>
+              <Link className='nav-link ' to='/Personal_Website/'>
+                Resume
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link className='nav-link' to='/portfolio'>
+                Portfolio
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link className='nav-link' to='/contact'>
+                Contact
+              </Link>
+            </li> */
+  }
 }
