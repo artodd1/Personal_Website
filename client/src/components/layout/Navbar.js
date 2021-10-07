@@ -16,7 +16,12 @@ export const Navbar = () => {
         >
           <span className='navbar-toggler-icon'></span>
         </button>
-        <div className='collapse navbar-collapse' id='navmenu'>
+        <div
+          className='collapse navbar-collapse'
+          id='navmenu'
+          data-bs-toggle='collapse'
+          data-bs-target='.navbar-collapse.show'
+        >
           <Link
             className='navbar-brand mx-5 text-center mt-0 nav-item '
             to='/Personal_Website/'
@@ -28,62 +33,32 @@ export const Navbar = () => {
           </Link>
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
-              <a
-                className='nav-link'
-                href='#summary'
-                data-bs-toggle='collapse'
-                data-bs-target='.navbar-collapse.show'
-              >
+              <a className='nav-link' href='#summary'>
                 Summary
               </a>
             </li>
             <li className='nav-item'>
-              <a
-                className='nav-link'
-                href='#education'
-                data-bs-toggle='collapse'
-                data-bs-target='.navbar-collapse.show'
-              >
+              <a className='nav-link' href='#education'>
                 Education
               </a>
             </li>
             <li className='nav-item'>
-              <a
-                className='nav-link'
-                href='#technical'
-                data-bs-toggle='collapse'
-                data-bs-target='.navbar-collapse.show'
-              >
+              <a className='nav-link' href='#technical'>
                 Technical Skills
               </a>
             </li>
             <li className='nav-item '>
-              <a
-                className='nav-link'
-                href='#projects'
-                data-bs-toggle='collapse'
-                data-bs-target='.navbar-collapse.show'
-              >
+              <a className='nav-link' href='#projects'>
                 Projects
               </a>
             </li>
             <li className='nav-item '>
-              <a
-                className='nav-link'
-                href='#experience'
-                data-bs-toggle='collapse'
-                data-bs-target='.navbar-collapse.show'
-              >
+              <a className='nav-link' href='#experience'>
                 Past Work Experience
               </a>
             </li>
             <li className='nav-item '>
-              <a
-                className='nav-link'
-                href='#contact'
-                data-bs-toggle='collapse'
-                data-bs-target='.navbar-collapse.show'
-              >
+              <a className='nav-link' href='#contact'>
                 Contact
               </a>
             </li>
