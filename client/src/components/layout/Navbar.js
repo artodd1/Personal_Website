@@ -28,32 +28,32 @@ export const Navbar = () => {
           </Link>
           <ul className='navbar-nav ms-auto navbar-collapse'>
             <li className='nav-item'>
-              <a classname='nav-link' href='#summary'>
+              <a className='nav-link' href='#summary'>
                 Summary
               </a>
             </li>
             <li className='nav-item'>
-              <a classname='nav-link' href='#education'>
+              <a className='nav-link' href='#education'>
                 Education
               </a>
             </li>
             <li className='nav-item'>
-              <a classname='nav-link' href='#technical'>
+              <a className='nav-link' href='#technical'>
                 Technical Skills
               </a>
             </li>
             <li className='nav-item'>
-              <a classname='nav-link' href='#projects'>
+              <a className='nav-link' href='#projects'>
                 Projects
               </a>
             </li>
             <li className='nav-item'>
-              <a classname='nav-link' href='#experience'>
+              <a className='nav-link' href='#experience'>
                 Past Work Experience
               </a>
             </li>
             <li className='nav-item'>
-              <a classname='nav-link' href='#contact'>
+              <a className='nav-link' href='#contact'>
                 Contact
               </a>
             </li>
