@@ -26,7 +26,7 @@ export const Navbar = () => {
               Software Developer
             </h6>
           </Link>
-          <ul className='navbar-nav ms-auto navbar-collapse'>
+          <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
               <a
                 className='nav-link'
