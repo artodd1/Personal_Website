@@ -27,33 +27,81 @@ export const Navbar = () => {
             </h6>
           </Link>
           <ul className='navbar-nav ms-auto navbar-collapse'>
-            <li className='nav-item'>
-              <a className='nav-link' href='#summary'>
+            <li className='nav-item navbar-toggler'>
+              <a
+                className='nav-link'
+                href='#summary'
+                data-toggle='collapse'
+                data-target='#navbarToggleExternalContent'
+                aria-controls='navbarToggleExternalContent'
+                aria-expanded='false'
+                aria-label='Toggle navigation'
+              >
                 Summary
               </a>
             </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#education'>
+            <li className='nav-item navbar-toggler'>
+              <a
+                className='nav-link'
+                href='#education'
+                data-toggle='collapse'
+                data-target='#navbarToggleExternalContent'
+                aria-controls='navbarToggleExternalContent'
+                aria-expanded='false'
+                aria-label='Toggle navigation'
+              >
                 Education
               </a>
             </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#technical'>
+            <li className='nav-item navbar-toggler'>
+              <a
+                className='nav-link'
+                href='#technical'
+                data-toggle='collapse'
+                data-target='#navbarToggleExternalContent'
+                aria-controls='navbarToggleExternalContent'
+                aria-expanded='false'
+                aria-label='Toggle navigation'
+              >
                 Technical Skills
               </a>
             </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#projects'>
+            <li className='nav-item navbar-toggler'>
+              <a
+                className='nav-link'
+                href='#projects'
+                data-toggle='collapse'
+                data-target='#navbarToggleExternalContent'
+                aria-controls='navbarToggleExternalContent'
+                aria-expanded='false'
+                aria-label='Toggle navigation'
+              >
                 Projects
               </a>
             </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#experience'>
+            <li className='nav-item navbar-toggler'>
+              <a
+                className='nav-link'
+                href='#experience'
+                data-toggle='collapse'
+                data-target='#navbarToggleExternalContent'
+                aria-controls='navbarToggleExternalContent'
+                aria-expanded='false'
+                aria-label='Toggle navigation'
+              >
                 Past Work Experience
               </a>
             </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#contact'>
+            <li className='nav-item navbar-toggler'>
+              <a
+                className='nav-link'
+                href='#contact'
+                data-toggle='collapse'
+                data-target='#navbarToggleExternalContent'
+                aria-controls='navbarToggleExternalContent'
+                aria-expanded='false'
+                aria-label='Toggle navigation'
+              >
                 Contact
               </a>
             </li>
