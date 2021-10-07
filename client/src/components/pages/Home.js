@@ -437,17 +437,17 @@ export const Home = () => {
         <h2 className='text-dark mb-5'>Experience</h2>
         <div className='row g-5'>
           <div className='col-lg-3 col-md-6'>
-            <div className='card p-3'>
+            <div className='card-dark p-3'>
               <img
                 src='./TextbookImage1.jpg'
                 class='card-img-top mb-3'
                 alt='...'
               />
-              <h5 className='card-title mb-3'>
+              <h5 className='card-title-light mb-3'>
                 Software Development Capstone Project
               </h5>
-              <h6 className='card-subtitle mb-3'>Bow Valley College</h6>
-              <ul className='card-text'>
+              <h6 className='card-subtitle-light mb-3'>Bow Valley College</h6>
+              <ul className='card-text-light'>
                 <li>
                   Designed and build a full stack web application for the School
                   of Health and Wellness at Bow Valley Collge using the MERN
