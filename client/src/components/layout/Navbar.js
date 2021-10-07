@@ -27,7 +27,7 @@ export const Navbar = () => {
             </h6>
           </Link>
           <ul className='navbar-nav ms-auto navbar-collapse'>
-            <li className='nav-item navbar-toggler'>
+            <li className='nav-item'>
               <a
                 className='nav-link'
                 href='#summary'
@@ -40,7 +40,7 @@ export const Navbar = () => {
                 Summary
               </a>
             </li>
-            <li className='nav-item navbar-toggler'>
+            <li className='nav-item'>
               <a
                 className='nav-link'
                 href='#education'
@@ -53,7 +53,7 @@ export const Navbar = () => {
                 Education
               </a>
             </li>
-            <li className='nav-item navbar-toggler'>
+            <li className='nav-item'>
               <a
                 className='nav-link'
                 href='#technical'
