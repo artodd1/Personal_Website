@@ -21,9 +21,9 @@ export const Navbar = () => {
             className='navbar-brand mx-5 text-center mt-0 nav-item'
             to='/Personal_Website/'
           >
-            <h1 className='fw-light mt-0 p-0'>AT</h1>
+            <h1 className='fw-light mt-0 p-0'>A/T</h1>
             <h6 small className='fw-light'>
-              Jr. Software Developer
+              Software Developer
             </h6>
           </Link>
           <ul className='navbar-nav ms-auto'>

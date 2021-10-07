@@ -28,7 +28,7 @@ export const Home = () => {
             style={{ width: "175px" }}
           ></img>
           <h1>{name}</h1>
-          <h2 className='text-secondary'>Junior Software Developer</h2>
+          <h2 className='text-secondary'>Software Developer</h2>
           <h5>{location}</h5>
           <h5 className='mb-4'>
             Hireable:{" "}
