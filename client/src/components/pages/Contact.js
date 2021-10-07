@@ -1,13 +1,13 @@
 import React from "react";
 
-const Contact = () => {
+export const Contact = () => {
   return (
     <div>
       <section className='p-5 bg-dark '>
         <div className='row py-5'>
           <img
             className='img-fluid col-lg-6'
-            src='./undraw_delivery_address_03n0.svg'
+            src='./undraw_Mobile_application_mr4r.svg'
             alt='contact me by email'
           ></img>
           <div className='col-lg-6 pt-3 text-center'>
