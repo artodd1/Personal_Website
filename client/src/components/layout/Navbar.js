@@ -20,6 +20,11 @@ export const Navbar = () => {
           <Link
             className='navbar-brand mx-5 text-center mt-0 nav-item'
             to='/Personal_Website/'
+            data-bs-toggle='collapse'
+            data-bs-target='#navmenu'
+            aria-controls='navmenu'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
           >
             <h1 className='fw-light mt-0 p-0'>A/T</h1>
             <h6 small className='fw-light'>
@@ -28,7 +33,15 @@ export const Navbar = () => {
           </Link>
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
-              <Link className='nav-link' to='/Personal_Website/'>
+              <Link
+                className='nav-link'
+                to='/Personal_Website/'
+                data-bs-toggle='collapse'
+                data-bs-target='#navmenu'
+                aria-controls='navmenu'
+                aria-expanded='false'
+                aria-label='Toggle navigation'
+              >
                 Resume
               </Link>
             </li>
@@ -38,7 +51,15 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to='/contact'>
+              <Link
+                className='nav-link'
+                to='/contact'
+                data-bs-toggle='collapse'
+                data-bs-target='#navmenu'
+                aria-controls='navmenu'
+                aria-expanded='false'
+                aria-label='Toggle navigation'
+              >
                 Contact
               </Link>
             </li>
