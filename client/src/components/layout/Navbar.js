@@ -32,7 +32,7 @@ export const Navbar = () => {
                 className='nav-link'
                 href='#summary'
                 data-bs-toggle='collapse'
-                data-bs-target='#navmenu'
+                data-bs-target='.navbar-collapse.show'
               >
                 Summary
               </a>
@@ -42,7 +42,7 @@ export const Navbar = () => {
                 className='nav-link'
                 href='#education'
                 data-bs-toggle='collapse'
-                data-bs-target='#navmenu'
+                data-bs-target='.navbar-collapse.show'
               >
                 Education
               </a>
@@ -52,7 +52,7 @@ export const Navbar = () => {
                 className='nav-link'
                 href='#technical'
                 data-bs-toggle='collapse'
-                data-bs-target='#navmenu'
+                data-bs-target='.navbar-collapse.show'
               >
                 Technical Skills
               </a>
@@ -62,7 +62,7 @@ export const Navbar = () => {
                 className='nav-link'
                 href='#projects'
                 data-bs-toggle='collapse'
-                data-bs-target='#navmenu'
+                data-bs-target='.navbar-collapse.show'
               >
                 Projects
               </a>
@@ -72,7 +72,7 @@ export const Navbar = () => {
                 className='nav-link'
                 href='#experience'
                 data-bs-toggle='collapse'
-                data-bs-target='#navmenu'
+                data-bs-target='.navbar-collapse.show'
               >
                 Past Work Experience
               </a>
@@ -82,7 +82,7 @@ export const Navbar = () => {
                 className='nav-link'
                 href='#contact'
                 data-bs-toggle='collapse'
-                data-bs-target='#navmenu'
+                data-bs-target='.navbar-collapse.show'
               >
                 Contact
               </a>
