@@ -20,7 +20,7 @@ export const Navbar = () => {
           className='collapse navbar-collapse'
           id='navmenu'
           data-bs-toggle='collapse'
-          data-bs-target='.navbar-collapse.show'
+          data-bs-target='.navbar-collapse'
         >
           <Link
             className='navbar-brand mx-5 text-center mt-0 nav-item '
