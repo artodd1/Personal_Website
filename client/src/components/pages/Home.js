@@ -237,7 +237,7 @@ export const Home = () => {
                 <img
                   className='p-1'
                   style={{ width: "100px" }}
-                  src='./static/128px-Node.js_logo.svg.png'
+                  src='./128px-Node.js_logo.svg.png'
                 />
               </li>
               <li>
@@ -404,7 +404,37 @@ export const Home = () => {
         </div>
       </section>
       <section className='p-sm-5 p-2 bg-dark'>
-        <h2 className='text-light mb-5'>Experience</h2>
+        <h2 className='text-light mb-5'>Projects I've Completed</h2>
+        <div className='row g-5'>
+          <div className='col-lg-3 col-md-6'>
+            <div className='card p-3'>
+              <img
+                src='./TextbookImage1.jpg'
+                class='card-img-top mb-3'
+                alt='...'
+              />
+              <h5 className='card-title mb-3'>
+                Software Development Capstone Project
+              </h5>
+              <h6 className='card-subtitle mb-3'>Bow Valley College</h6>
+              <ul className='card-text'>
+                <li>
+                  Designed and build a full stack web application for the School
+                  of Health and Wellness at Bow Valley Collge using the MERN
+                  stack
+                </li>
+                <li>
+                  This application facilitates learning the proper pronunciation
+                  and spelling of pharmaceutical drug names for students in the
+                  Pharmacy Technician Program.{" "}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='p-sm-5 p-2 bg-light'>
+        <h2 className='text-dark mb-5'>Experience</h2>
         <div className='row g-5'>
           <div className='col-lg-3 col-md-6'>
             <div className='card p-3'>
@@ -518,8 +548,8 @@ export const Home = () => {
             <h2 className='text-light'>Contact Info</h2>
             <ul className='list-group list-group-flush lead text-start p-lg-5'>
               <li className='list-group-item bg-dark text-light'>
-                <span className='fw-bold'>Location:</span> Cochrane, Alberta,
-                Canada
+                <span className='fw-bold'>Location:</span> Calgary Metropolitan
+                Area, Alberta, Canada
               </li>
               <li className='list-group-item bg-dark text-light'>
                 <span className='fw-bold'>Phone:</span> 403-542-6637
