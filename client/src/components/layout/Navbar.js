@@ -31,9 +31,9 @@ export const Navbar = () => {
               <a
                 className='nav-link'
                 href='#summary'
-                data-toggle='collapse'
-                data-target='#navbarToggleExternalContent'
-                aria-controls='navbarToggleExternalContent'
+                data-bs-toggle='collapse'
+                data-bs-target='#navmenu'
+                aria-controls='navmenu'
                 aria-expanded='false'
                 aria-label='Toggle navigation'
               >
@@ -44,9 +44,9 @@ export const Navbar = () => {
               <a
                 className='nav-link'
                 href='#education'
-                data-toggle='collapse'
-                data-target='#navbarToggleExternalContent'
-                aria-controls='navbarToggleExternalContent'
+                data-bs-toggle='collapse'
+                data-bs-target='#navmenu'
+                aria-controls='navmenu'
                 aria-expanded='false'
                 aria-label='Toggle navigation'
               >
@@ -57,9 +57,9 @@ export const Navbar = () => {
               <a
                 className='nav-link'
                 href='#technical'
-                data-toggle='collapse'
-                data-target='#navbarToggleExternalContent'
-                aria-controls='navbarToggleExternalContent'
+                data-bs-toggle='collapse'
+                data-bs-target='#navmenu'
+                aria-controls='navmenu'
                 aria-expanded='false'
                 aria-label='Toggle navigation'
               >
@@ -70,9 +70,9 @@ export const Navbar = () => {
               <a
                 className='nav-link'
                 href='#projects'
-                data-toggle='collapse'
-                data-target='#navbarToggleExternalContent'
-                aria-controls='navbarToggleExternalContent'
+                data-bs-toggle='collapse'
+                data-bs-target='#navmenu'
+                aria-controls='navmenu'
                 aria-expanded='false'
                 aria-label='Toggle navigation'
               >
@@ -83,9 +83,9 @@ export const Navbar = () => {
               <a
                 className='nav-link'
                 href='#experience'
-                data-toggle='collapse'
-                data-target='#navbarToggleExternalContent'
-                aria-controls='navbarToggleExternalContent'
+                data-bs-toggle='collapse'
+                data-bs-target='#navmenu'
+                aria-controls='navmenu'
                 aria-expanded='false'
                 aria-label='Toggle navigation'
               >
@@ -96,9 +96,9 @@ export const Navbar = () => {
               <a
                 className='nav-link'
                 href='#contact'
-                data-toggle='collapse'
-                data-target='#navbarToggleExternalContent'
-                aria-controls='navbarToggleExternalContent'
+                data-bs-toggle='collapse'
+                data-bs-target='#navmenu'
+                aria-controls='navmenu'
                 aria-expanded='false'
                 aria-label='Toggle navigation'
               >
