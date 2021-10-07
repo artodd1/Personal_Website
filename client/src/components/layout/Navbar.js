@@ -22,7 +22,7 @@ export const Navbar = () => {
           data-bs-toggle='collapse'
           data-bs-target='#navmenu'
           aria-controls='navmenu'
-          aria-expanded='false'
+          aria-expanded='true'
           aria-label='Toggle navigation'
         >
           <Link
