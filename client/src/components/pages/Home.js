@@ -416,23 +416,23 @@ export const Home = () => {
                 class='card-img-top mb-3'
                 alt='...'
               />
-              <ul className='list-group bg-light d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
-                <li className='list-item badge bg-secondary m-1 text-dark'>
+              <ul className='list-group d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
+                <li className='list-item badge bg-dark m-1 text-light'>
                   React
                 </li>
-                <li className='list-item badge bg-secondary m-1 text-dark'>
+                <li className='list-item badge bg-dark m-1 text-light'>
                   Express.js
                 </li>
-                <li className='list-item badge bg-secondary m-1 text-dark'>
+                <li className='list-item badge bg-dark m-1 text-light'>
                   Node.js
                 </li>
-                <li className='list-item badge bg-secondary m-1 text-dark'>
+                <li className='list-item badge bg-dark m-1 text-light'>
                   MongoDB
                 </li>
-                <li className='list-item badge bg-secondary m-1 text-dark'>
+                <li className='list-item badge bg-dark m-1 text-light'>
                   JSON Web Tokens
                 </li>
-                <li className='list-item badge bg-secondary m-1 text-dark'>
+                <li className='list-item badge bg-dark m-1 text-light'>
                   Google Text-to-speech API
                 </li>
               </ul>
@@ -461,14 +461,12 @@ export const Home = () => {
                 class='card-img-top mb-3'
                 alt='...'
               />
-              <ul className='list-group bg-light d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
-                <li className='list-item badge bg-secondary m-1 text-dark'>
-                  C#
-                </li>
-                <li className='list-item badge bg-secondary m-1 text-dark'>
+              <ul className='list-group d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
+                <li className='list-item badge bg-dark m-1 text-light'>C#</li>
+                <li className='list-item badge bg-dark m-1 text-light'>
                   WinForms
                 </li>
-                <li className='list-item badge bg-secondary m-1 text-dark'>
+                <li className='list-item badge bg-dark m-1 text-light'>
                   T-SQL
                 </li>
               </ul>
