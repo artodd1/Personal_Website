@@ -416,20 +416,20 @@ export const Home = () => {
                 class='card-img-top mb-3'
                 alt='...'
               />
-              <ul className='list-group d-flex flex-row flex-wrap align-items-center list-unstyled mb-3'>
-                <li className='list-item badge bg-dark m-1 text-light'>
+              <ul className='list-group-flush d-flex flex-row flex-wrap align-items-center list-unstyled mb-3'>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
                   React
                 </li>
-                <li className='list-item badge bg-dark m-1 text-light'>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
                   Express.js
                 </li>
-                <li className='list-item badge bg-dark m-1 text-light'>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
                   Node.js
                 </li>
-                <li className='list-item badge bg-dark m-1 text-light'>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
                   MongoDB
                 </li>
-                <li className='list-item badge bg-dark m-1 text-light'>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
                   JSON Web Tokens
                 </li>
                 <li className='list-item badge bg-dark m-1 text-light'>
