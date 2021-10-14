@@ -421,6 +421,41 @@ export const Home = () => {
                   React
                 </li>
                 <li className='list-item badge bg-dark m-1 text-secondary'>
+                  Node.js
+                </li>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
+                  Bootstrap
+                </li>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
+                  Github API
+                </li>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
+                  Postman
+                </li>
+              </ul>
+              <h5 className='card-title mb-3'>Personal Website</h5>
+              <h6 className='card-subtitle mb-3'></h6>
+              <ul className='card-text'>
+                <li>
+                  I built this website to showcase some of my skills as a
+                  software developer.
+                </li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+          <div className='col-lg-6 '>
+            <div className='card p-3'>
+              <img
+                src='./TextbookImage1.jpg'
+                class='card-img-top mb-3'
+                alt='...'
+              />
+              <ul className='list-group-flush d-flex flex-row flex-wrap align-items-center list-unstyled mb-3'>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
+                  React
+                </li>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
                   Express.js
                 </li>
                 <li className='list-item badge bg-dark m-1 text-secondary'>
@@ -434,6 +469,9 @@ export const Home = () => {
                 </li>
                 <li className='list-item badge bg-dark m-1 text-secondary'>
                   Google Text-to-speech API
+                </li>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
+                  Postman
                 </li>
               </ul>
               <h5 className='card-title mb-3'>Canadian Drug Speak</h5>
