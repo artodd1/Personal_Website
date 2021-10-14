@@ -407,9 +407,9 @@ export const Home = () => {
         </div>
       </section>
       <section id='projects' className='p-sm-5 p-2 bg-dark'>
-        <h2 className='text-light mb-5'>Projects I've Worked On</h2>
+        <h2 className='text-light mb-5'>Projects I've Completed</h2>
         <div className='row g-5'>
-          <div className='col-lg-6 '>
+          <div className='col-lg-4 col-md-6'>
             <div className='card p-3'>
               <img
                 src='./personalWebsite.png'
@@ -447,7 +447,7 @@ export const Home = () => {
               </ul>
             </div>
           </div>
-          <div className='col-lg-6 '>
+          <div className='col-lg-4 col-md-6'>
             <div className='card p-3'>
               <img
                 src='./TextbookImage1.jpg'
@@ -495,7 +495,7 @@ export const Home = () => {
               </ul>
             </div>
           </div>
-          <div className='col-lg-6'>
+          <div className='col-lg-4 col-md-6'>
             <div className='card p-3'>
               <img
                 src='./ContactKeeperDesktopApp.png'
@@ -532,34 +532,10 @@ export const Home = () => {
         </div>
       </section>
       <section id='experience' className='p-sm-5 p-2 bg-light'>
-        <h2 className='text-dark mb-5'>Experience</h2>
+        <h2 className='text-dark mb-5'>A little more about me</h2>
+        <h3>Past Work Experience</h3>
         <div className='row g-5'>
-          <div className='col-lg-3 col-md-6'>
-            <div className='card bg-dark text-light p-3'>
-              <img
-                src='./TextbookImage1.jpg'
-                class='card-img-top mb-3'
-                alt='...'
-              />
-              <h5 className='card-title mb-3'>
-                Software Development Capstone Project
-              </h5>
-              <h6 className='card-subtitle mb-3'>Bow Valley College</h6>
-              <ul className='card-text-light'>
-                <li>
-                  Designed and build a full stack web application for the School
-                  of Health and Wellness at Bow Valley Collge using the MERN
-                  stack
-                </li>
-                <li>
-                  This application facilitates learning the proper pronunciation
-                  and spelling of pharmaceutical drug names for students in the
-                  Pharmacy Technician Program.{" "}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className='col-lg-3 col-md-6'>
+          <div className='col-lg-4 col-md-6'>
             <div className='card bg-dark text-light p-3'>
               <img src='./confluence.jpg' class='card-img-top mb-3' alt='...' />
               <h5 className='card-title mb-3'>Assistant Distiller</h5>
@@ -578,7 +554,7 @@ export const Home = () => {
               </ul>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div className='col-lg-4 col-md-6'>
             <div className='card bg-dark text-light p-3'>
               <img
                 src='./timber-frame-truss.jpg'
@@ -605,7 +581,75 @@ export const Home = () => {
               </ul>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div className='col-lg-4 col-md-6'>
+            <div className='card bg-dark text-light p-3'>
+              <img
+                src='./petrel-robertson-consulting-ltd.png'
+                class='card-img-top mb-3'
+                alt='...'
+              />
+              <h5 className='card-title mb-3'>Student Geological Technician</h5>
+              <h6 className='card-subtitle mb-3'>
+                Petrel Robertson Consulting Ltd.
+              </h6>
+              <ul className='card-text'>
+                <li>
+                  Collaborated with and learned from a team of Geologists and
+                  Geophysicists.
+                </li>
+                <li>
+                  Data management with MS Excel, mapping with ArcGIS, and
+                  digital core log creation with core logging software.{" "}
+                </li>
+                <li>
+                  Developed analytical problem-solving skills while conducting a
+                  regional study of the major oil sands deposits in Alberta and
+                  Western Canada.{" "}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <h3>Some things I like to do when I'm not coding</h3>
+        <div className='row g-5'>
+          <div className='col-lg-4 col-md-6'>
+            <div className='card bg-dark text-light p-3'>
+              <h5 className='card-title mb-3'>Snowboard</h5>
+              <video
+                src='https://www.instagram.com/p/BE9nnCDRxrudY5vDg7PN5gEAsyZ08VBo5zSJdU0/'
+                class='card-img-top mb-3'
+                alt='...'
+              />
+            </div>
+          </div>
+          <div className='col-lg-4 col-md-6'>
+            <div className='card bg-dark text-light p-3'>
+              <img
+                src='./timber-frame-truss.jpg'
+                class='card-img-top mb-3'
+                alt='...'
+              />
+              <h5 className='card-title mb-3'>Timber Frame Carpenter</h5>
+              <h6 className='card-subtitle mb-3'>
+                International Timber Frames
+              </h6>
+              <ul className='card-text'>
+                <li>
+                  Crafted high-quality timber frame structures with precision
+                  layout, fabrication, joinery, and installation.
+                </li>
+                <li>
+                  Demonstrated attention to detail and quality by adhering to
+                  blueprints, drawings, and specifications.{" "}
+                </li>
+                <li>
+                  Increased productivity by creating jigs and templates to
+                  streamline workshop processes.{" "}
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className='col-lg-4 col-md-6'>
             <div className='card bg-dark text-light p-3'>
               <img
                 src='./petrel-robertson-consulting-ltd.png'
