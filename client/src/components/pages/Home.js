@@ -408,7 +408,7 @@ export const Home = () => {
       </section>
       <section id='projects' className='p-sm-5 p-2 bg-dark'>
         <h2 className='text-light mb-5'>Projects I've Worked On</h2>
-        <div className='row g-5'>
+        <div className='row g-2'>
           <div className='col-lg-3 col-md-6'>
             <div className='card p-3'>
               <img
@@ -432,14 +432,14 @@ export const Home = () => {
                 <li className='list-item badge bg-dark m-1 text-secondary'>
                   JSON Web Tokens
                 </li>
-                <li className='list-item badge bg-dark m-1 text-light'>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
                   Google Text-to-speech API
                 </li>
               </ul>
-              <h5 className='card-title mb-3'>
-                Software Development Capstone Project
-              </h5>
-              <h6 className='card-subtitle mb-3'>Bow Valley College</h6>
+              <h5 className='card-title mb-3'>Canadian Drug Speak</h5>
+              <h6 className='card-subtitle mb-3'>
+                Bow Valley College Software Development Capstone Project
+              </h6>
               <ul className='card-text'>
                 <li>
                   Designed and built a full stack web application for the School
@@ -462,15 +462,17 @@ export const Home = () => {
                 alt='...'
               />
               <ul className='list-group-flush d-flex flex-row flex-wrap align-items-center list-unstyled mb-3'>
-                <li className='list-item badge bg-dark m-1 text-light'>C#</li>
-                <li className='list-item badge bg-dark m-1 text-light'>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
+                  C#
+                </li>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
                   WinForms
                 </li>
-                <li className='list-item badge bg-dark m-1 text-light'>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
                   T-SQL
                 </li>
               </ul>
-              <h5 className='card-title mb-3'>My Contact Keeper</h5>
+              <h5 className='card-title mb-3'>My Address Book</h5>
               <h6 className='card-subtitle mb-3'>
                 SODV 2101 - Rapid Application Development Course Project
               </h6>
