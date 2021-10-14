@@ -27,32 +27,32 @@ export const Navbar = () => {
             </h6>
           </Link>
           <ul className='navbar-nav ms-auto'>
-            <li className='nav-item'>
+            <li className='nav-item mx-1'>
               <a className='nav-link' href='#summary'>
                 Summary
               </a>
             </li>
-            <li className='nav-item'>
+            <li className='nav-item mx-1'>
               <a className='nav-link' href='#education'>
                 Education
               </a>
             </li>
-            <li className='nav-item'>
+            <li className='nav-item mx-1'>
               <a className='nav-link' href='#technical'>
                 Technical Skills
               </a>
             </li>
-            <li className='nav-item '>
+            <li className='nav-item mx-1'>
               <a className='nav-link' href='#projects'>
                 Projects
               </a>
             </li>
-            <li className='nav-item '>
+            <li className='nav-item mx-1'>
               <a className='nav-link' href='#experience'>
                 Past Work Experience
               </a>
             </li>
-            <li className='nav-item '>
+            <li className='nav-item mx-1'>
               <a className='nav-link' href='#contact'>
                 Contact
               </a>

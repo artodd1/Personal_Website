@@ -454,7 +454,7 @@ export const Home = () => {
               </ul>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div className='col-lg-6'>
             <div className='card p-3'>
               <img
                 src='./ContactKeeperDesktopApp.png'
