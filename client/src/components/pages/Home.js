@@ -416,7 +416,7 @@ export const Home = () => {
                 class='card-img-top mb-3'
                 alt='...'
               />
-              <ul className='list-group d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
+              <ul className='list-group d-flex flex-row flex-wrap align-items-center list-unstyled mb-3'>
                 <li className='list-item badge bg-dark m-1 text-light'>
                   React
                 </li>
@@ -442,7 +442,7 @@ export const Home = () => {
               <h6 className='card-subtitle mb-3'>Bow Valley College</h6>
               <ul className='card-text'>
                 <li>
-                  Designed and build a full stack web application for the School
+                  Designed and built a full stack web application for the School
                   of Health and Wellness at Bow Valley Collge using the MERN
                   stack
                 </li>
@@ -461,7 +461,7 @@ export const Home = () => {
                 class='card-img-top mb-3'
                 alt='...'
               />
-              <ul className='list-group d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
+              <ul className='list-group-flush d-flex flex-row flex-wrap align-items-center list-unstyled mb-3'>
                 <li className='list-item badge bg-dark m-1 text-light'>C#</li>
                 <li className='list-item badge bg-dark m-1 text-light'>
                   WinForms
