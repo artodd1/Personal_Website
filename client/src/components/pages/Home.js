@@ -407,7 +407,7 @@ export const Home = () => {
         </div>
       </section>
       <section id='projects' className='p-sm-5 p-2 bg-dark'>
-        <h2 className='text-light mb-5'>Projects I've Completed</h2>
+        <h2 className='text-light mb-5'>Projects I've Worked On</h2>
         <div className='row g-5'>
           <div className='col-lg-3 col-md-6'>
             <div className='card p-3'>
@@ -431,6 +431,35 @@ export const Home = () => {
                   and spelling of pharmaceutical drug names for students in the
                   Pharmacy Technician Program.{" "}
                 </li>
+              </ul>
+            </div>
+          </div>
+          <div className='col-lg-3 col-md-6'>
+            <div className='card p-3'>
+              <img
+                src='./ContactKeeperDesktopApp.png'
+                class='card-img-top mb-3'
+                alt='...'
+              />
+              <h5 className='card-title mb-3'>
+                My Contact Keeper Windows Desktop App
+              </h5>
+              <h6 className='card-subtitle mb-3'>
+                SODV 2101 Rapid Application Development Project
+              </h6>
+              <ul className='card-text'>
+                <li>Technologies Used</li>
+                <ul className='list-group bg-dark d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
+                  <li className='list-item badge bg-secondary m-1 text-dark'>
+                    C#
+                  </li>
+                  <li className='list-item badge bg-secondary m-1 text-dark'>
+                    WinForms
+                  </li>
+                  <li className='list-item badge bg-secondary m-1 text-dark'>
+                    T-SQL
+                  </li>
+                </ul>
               </ul>
             </div>
           </div>
