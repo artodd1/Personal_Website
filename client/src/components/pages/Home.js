@@ -564,7 +564,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <footer className='p-5 bg-dark text-light text-center position-relative'>
+      <footer className='p-1 bg-dark text-light text-center position-relative'>
         <div className='container'>
           <h6 small className='fw-light'>
             Copyright &copy; 2021 Adrian Todd
