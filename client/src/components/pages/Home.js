@@ -412,7 +412,7 @@ export const Home = () => {
           <div className='col-lg-6 '>
             <div className='card p-3'>
               <img
-                src='./TextbookImage1.jpg'
+                src='./personalWebsite.png'
                 class='card-img-top mb-3'
                 alt='...'
               />
@@ -432,13 +432,16 @@ export const Home = () => {
                 <li className='list-item badge bg-dark m-1 text-secondary'>
                   Postman
                 </li>
+                <li className='list-item badge bg-dark m-1 text-secondary'>
+                  Github Pages
+                </li>
               </ul>
               <h5 className='card-title mb-3'>Personal Website</h5>
               <h6 className='card-subtitle mb-3'></h6>
               <ul className='card-text'>
                 <li>
-                  I built this website to showcase some of my skills as a
-                  software developer.
+                  I built this responsive website to showcase some of my skills
+                  as a software developer.
                 </li>
                 <li></li>
               </ul>
