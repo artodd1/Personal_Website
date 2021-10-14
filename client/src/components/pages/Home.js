@@ -416,6 +416,26 @@ export const Home = () => {
                 class='card-img-top mb-3'
                 alt='...'
               />
+              <ul className='list-group bg-light d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
+                <li className='list-item badge bg-secondary m-1 text-dark'>
+                  React
+                </li>
+                <li className='list-item badge bg-secondary m-1 text-dark'>
+                  Express.js
+                </li>
+                <li className='list-item badge bg-secondary m-1 text-dark'>
+                  Node.js
+                </li>
+                <li className='list-item badge bg-secondary m-1 text-dark'>
+                  MongoDB
+                </li>
+                <li className='list-item badge bg-secondary m-1 text-dark'>
+                  JSON Web Tokens
+                </li>
+                <li className='list-item badge bg-secondary m-1 text-dark'>
+                  Google Text-to-speech API
+                </li>
+              </ul>
               <h5 className='card-title mb-3'>
                 Software Development Capstone Project
               </h5>
@@ -441,25 +461,30 @@ export const Home = () => {
                 class='card-img-top mb-3'
                 alt='...'
               />
-              <h5 className='card-title mb-3'>
-                My Contact Keeper Windows Desktop App
-              </h5>
+              <ul className='list-group bg-light d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
+                <li className='list-item badge bg-secondary m-1 text-dark'>
+                  C#
+                </li>
+                <li className='list-item badge bg-secondary m-1 text-dark'>
+                  WinForms
+                </li>
+                <li className='list-item badge bg-secondary m-1 text-dark'>
+                  T-SQL
+                </li>
+              </ul>
+              <h5 className='card-title mb-3'>My Contact Keeper</h5>
               <h6 className='card-subtitle mb-3'>
-                SODV 2101 Rapid Application Development Project
+                SODV 2101 - Rapid Application Development Course Project
               </h6>
               <ul className='card-text'>
-                <li>Technologies Used</li>
-                <ul className='list-group bg-dark d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
-                  <li className='list-item badge bg-secondary m-1 text-dark'>
-                    C#
-                  </li>
-                  <li className='list-item badge bg-secondary m-1 text-dark'>
-                    WinForms
-                  </li>
-                  <li className='list-item badge bg-secondary m-1 text-dark'>
-                    T-SQL
-                  </li>
-                </ul>
+                <li>
+                  A windows desktop application for storing your contacts.
+                </li>
+                <li>
+                  The UI was created using WinForms and the application
+                  implements full CRUD functionality using a simple custom SQL
+                  database.
+                </li>
               </ul>
             </div>
           </div>
