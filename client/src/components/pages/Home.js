@@ -408,8 +408,8 @@ export const Home = () => {
       </section>
       <section id='projects' className='p-sm-5 p-2 bg-dark'>
         <h2 className='text-light mb-5'>Projects I've Worked On</h2>
-        <div className='row g-2'>
-          <div className='col-lg-3 col-md-6'>
+        <div className='row g-5'>
+          <div className='col-lg-6 '>
             <div className='card p-3'>
               <img
                 src='./TextbookImage1.jpg'
