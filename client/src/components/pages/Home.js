@@ -113,68 +113,140 @@ export const Home = () => {
             <h5>Software Development Diploma Courses</h5>
             <ul className='list-group bg-dark d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
               <li
-                className='list-item badge bg-secondary m-1 text-dark arrow'
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
                 data-toggle='tooltip'
                 title='C++, Types, Conditionals, Loops, Arrays, Sorting, Pointers'
               >
                 SODV1101 Programming Fundamentals
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='HTML, CSS, Javascript Basics, Browser Dev Tools'
+              >
                 <span>TECH1101 Web and Internet Fundamentals</span>
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Arduino C, Electrical Engineering Basics, Hardware Basics'
+              >
                 TECH1102 Internet of Things
               </li>
-              <li className='list-item badge text-wrap bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Soft Skills, Effective Communication, Team Collaboration'
+              >
                 MGMT1103 Introduction to Project Teams and Technical
                 Communications
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Number Systems, Set Theory, Logic, Boolean Algebra'
+              >
                 MATH 1901 Math for the Computer Industry
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='T-SQL, Data Manipulation, Normalization, UML Diagrams'
+              >
                 DATA1201 Introduction to Relational Databases
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='UX Design Principles, Mock Google Design Sprints'
+              >
                 DESN2301 User Experience Design
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Intermediate Javascript, Node.js, Express.js'
+              >
                 SODV1201 Introduction to Web Programming
               </li>
-              <li className='list-item badge text-wrap bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='C#, Abstraction, Encapsulation, Inheritance, Polymorphism'
+              >
                 SODV1202 Introduction to Object-Oriented Programming
               </li>
               <li className='list-item badge bg-secondary m-1 text-dark'>
                 TECH1201 Networking Essentials
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Intermediate SQL, Design, Administration, Security'
+              >
                 DATA2201 Relational Databases
               </li>
-              <li className='list-item badge text-wrap bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Agile and Waterfall project management methodologies, Kanban, Srum, User story development'
+              >
                 MGMT1104 Introduction to Project Management for IT
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='C#, WinForms, XML, GUI Design'
+              >
                 SODV2101 Rapid Application Development
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='React, MongoDB, Node.js, Express.js, RestfulAPIs, Authentication'
+              >
                 SODV2201 Web Programming
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Advanced C#, Delegates, Events, Threading, Design Patterns, Decoupling'
+              >
                 SODV2202 Object-Oriented Programming
               </li>
-              <li className='list-item badge text-wrap bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Unreal Engine, Intro to Computer Graphics'
+              >
                 SODV2203 Introduction to Game and Simulation Programming
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Java, Linked Lists, Queues, Stacks, Searching, Sorting, Algorithm Complexity (Big O) Notation'
+              >
                 SODV2401 Algorithms and Data Structures
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Software Development Lifecycle, Project Management, Web Application Development'
+              >
                 SODV299 Software Development Capstone
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Java, Android Studio, Android Development'
+              >
                 SODV3203 Mobile Application Development
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Intro to Apache, PHP, MySQL, Docker, AWS'
+              >
                 TECH2102 Enterprise Computing
               </li>
             </ul>
