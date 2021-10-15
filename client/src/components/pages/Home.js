@@ -176,7 +176,11 @@ export const Home = () => {
               >
                 SODV1202 Introduction to Object-Oriented Programming
               </li>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark cursor-pointer'
+                data-toggle='tooltip'
+                title='Inro to Networking and Security Basics'
+              >
                 TECH1201 Networking Essentials
               </li>
               <li
