@@ -113,7 +113,7 @@ export const Home = () => {
             <h5>Software Development Diploma Courses</h5>
             <ul className='list-group bg-dark d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
               <li
-                className='list-item badge bg-secondary m-1 text-dark'
+                className='list-item badge bg-secondary m-1 text-dark arrow'
                 data-toggle='tooltip'
                 title='C++, Types, Conditionals, Loops, Arrays, Sorting, Pointers'
               >
