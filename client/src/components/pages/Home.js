@@ -110,9 +110,14 @@ export const Home = () => {
                 <span className='text-secondary'>2012-2015</span>
               </li>
             </ul>
-            <h5>Relevant Courses</h5>
+            <h5>Software Development Diploma Courses</h5>
             <ul className='list-group bg-dark d-flex flex-row flex-wrap list-group align-items-center list-unstyled mb-3'>
-              <li className='list-item badge bg-secondary m-1 text-dark'>
+              <li
+                className='list-item badge bg-secondary m-1 text-dark'
+                data-toggle='tooltip'
+                data-html='true'
+                title='<em>Tooltip</em> <u>with</u> <b>HTML</b>'
+              >
                 SODV1101 Programming Fundamentals
               </li>
               <li className='list-item badge bg-secondary m-1 text-dark'>
