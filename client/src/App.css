@@ -8,10 +8,10 @@ html {
   scroll-padding-top: 70px;
 }
 
-.sodv1101 {
+.sodv1101 span {
   content: "SODV1101 Programming Fundamentals";
 }
-.sodv1101:hover {
+.sodv1101:hover span {
   display: none;
 }
 .sodv1101:hover .sodv1101:after {

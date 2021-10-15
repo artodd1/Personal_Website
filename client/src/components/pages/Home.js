@@ -116,7 +116,7 @@ export const Home = () => {
                 SODV1101 Programming Fundamentals
               </li>
               <li className='list-item badge bg-secondary m-1 text-dark'>
-                TECH1101 Web and Internet Fundamentals
+                <span>TECH1101 Web and Internet Fundamentals</span>
               </li>
               <li className='list-item badge bg-secondary m-1 text-dark'>
                 TECH1102 Internet of Things
